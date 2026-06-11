@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/payment_gateway
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+app:
+  security:
+    secret-key: MANJO_SECRET_KEY_2026
+
+  front-end-url: http://localhost:5173
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
