@@ -45,11 +45,11 @@ public class HmacUtil {
         String generated =
                 generateSignature(payload);
 
-        log.debug(
+        log.info(
                 "Generated : " + generated
         );
 
-        log.debug(
+        log.info(
                 "Incoming  : " + incomingSignature
         );
 

@@ -15,7 +15,7 @@ Technology Stack:
 * Java 21
 * Spring Boot 3
 * PostgreSQL
-* Spring Data JPA
+* Spring Data JPA+
 * Lombok
 * Swagger OpenAPI
 
